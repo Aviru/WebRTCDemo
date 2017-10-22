@@ -178,6 +178,7 @@
     switch (state) {
         case kARDAppClientStateConnected:
             NSLog(@"Client connected.");
+           // [self.client connectToRoomWithId:self.roomName options:nil];
             break;
         case kARDAppClientStateConnecting:
             NSLog(@"Client connecting.");

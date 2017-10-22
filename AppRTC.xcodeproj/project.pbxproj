@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		006E3C1B1F9BD83400535B6A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 006E3C1A1F9BD83400535B6A /* GoogleService-Info.plist */; };
 		4F9313A4122A8DAFE4B73AD4 /* libPods-AppRTC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5960B94EA93AB1BD17E3CA0 /* libPods-AppRTC.a */; };
 		5C80AA7C1AAB5DF300F21FFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C80AA7B1AAB5DF300F21FFA /* main.m */; };
 		5C80AA7F1AAB5DF300F21FFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C80AA7E1AAB5DF300F21FFA /* AppDelegate.m */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		006E3C1A1F9BD83400535B6A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		11AFF62522339F4B55758269 /* Pods-AppRTC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppRTC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppRTC/Pods-AppRTC.debug.xcconfig"; sourceTree = "<group>"; };
 		5C80AA761AAB5DF300F21FFA /* AppRTC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppRTC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C80AA7A1AAB5DF300F21FFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 		5C80AA781AAB5DF300F21FFA /* AppRTC */ = {
 			isa = PBXGroup;
 			children = (
+				006E3C1A1F9BD83400535B6A /* GoogleService-Info.plist */,
 				5C80AAA21AAB718200F21FFA /* App */,
 				5C80AAA31AAB718700F21FFA /* ViewControllers */,
 				5C80AAA71AAB786200F21FFA /* Views */,
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C80AA851AAB5DF300F21FFA /* Main.storyboard in Resources */,
+				006E3C1B1F9BD83400535B6A /* GoogleService-Info.plist in Resources */,
 				5C80AA8A1AAB5DF300F21FFA /* LaunchScreen.xib in Resources */,
 				5C80AA871AAB5DF300F21FFA /* Images.xcassets in Resources */,
 			);

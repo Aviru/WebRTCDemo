@@ -62,7 +62,8 @@ static NSString const *kARDSignalingMessageTypeKey = @"type";
     RTCICECandidate *candidate =
         [RTCICECandidate candidateFromJSONDictionary:values];
     message = [[ARDICECandidateMessage alloc] initWithCandidate:candidate];
-  } else if ([typeString isEqualToString:@"offer"] ||
+  }
+  else if ([typeString isEqualToString:@"offer"] ||
              [typeString isEqualToString:@"answer"]) {
     RTCSessionDescription *description =
         [RTCSessionDescription descriptionFromJSONDictionary:values];
